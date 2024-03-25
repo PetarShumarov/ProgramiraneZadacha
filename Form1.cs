@@ -21,5 +21,23 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double suma = double.Parse(textBox1.Text);
+            label3.Text = (suma * 0.51).ToString() + "€";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double suma = double.Parse(textBox1.Text);
+            label3.Text = (suma * 0.55).ToString() + "$";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            double suma = double.Parse(textBox1.Text);
+            label3.Text = (suma * 0.44).ToString() + "£";
+        }
     }
 }
