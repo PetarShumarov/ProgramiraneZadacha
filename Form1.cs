@@ -39,5 +39,12 @@ namespace WindowsFormsApp1
             double suma = double.Parse(textBox1.Text);
             label3.Text = (suma * 0.44).ToString() + "£";
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.Show();
+            this.Hide();
+        }
     }
 }
